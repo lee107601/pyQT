@@ -1,0 +1,25 @@
+1. 간단한 GUI 만들기.
+ - 만들때 main window - 빈 것
+ - 위젯박스 : 도구들
+   오브젝트 인스펙터 : 해당 ui들을 구성하고 있는 위젯박스들
+   프로퍼티 : 각 위젯박스의 특징.
+ - 위젯박스 : label, line edit , text browser - 출력창 나타냄.
+ - 컨트롤 R  하면 지금 구성한 ui 화면 볼 수 있음.
+ - 저장하면 .ui파일이고 이것을 .py로 변환하고 변환된 파일로 코딩을한다.
+
+2. 
+프로퍼티
+ - objectName : 자기 입맛대로
+ - geometry :  x,y 위치 , 크기
+
+시그널슬롯
+ - 시그널슬롯으로 특정 끌어다 쓰기.
+ - 버튼과 공란 이어준뒤에 클릭했을때 수행하는동작 정의.
+ 
+python파일 생성 : pyuic5 -x 파일이름.ui -o 파일이름.py
+
+
+
+  def start():
+        self.textEdit.append("hi")
+        pass
